@@ -1,0 +1,39 @@
+
+body {
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    background: #200122;
+    background: -webkit-linear-gradient(to right, #6f0000, #200122); 
+    background: linear-gradient(to right, #6f0000, #200122);
+    color: cyan;
+    text-align: center;
+}
+
+h4 {
+    margin-top: 40px;
+}
+
+button {
+    width: 100px;
+    height: 100px;
+    background: deeppink;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px black;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+button:hover {
+    border: 2px solid cyan;
+}
+
+button:active {
+    width: 90px;
+    height: 90px;
+}
+
+.idea-came {
+    background: #EB0000;
+    background: -webkit-linear-gradient(to right, #3300FC, #95008A, #EB0000);
+    background: linear-gradient(to right, #3300FC, #95008A, #EB0000);
+}
